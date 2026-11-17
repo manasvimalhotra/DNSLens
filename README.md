@@ -99,5 +99,5 @@ See `wireshark/WIRESHARK_GUIDE.md`. In short:
 
 ## Team
 
-- Backend and networking: _name_
-- Frontend and dashboard: _name_
+- Backend and networking: devansh and manasvi
+- Frontend and dashboard: devansh and manasvi
