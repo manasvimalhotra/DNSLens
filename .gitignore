@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments (each computer creates its own)
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+
+# Streamlit secrets (DNSLens needs none, but never commit them)
+.streamlit/secrets.toml
+
+# Measurement data and captures: kept local by default.
+# Raw captures can contain DNS names from other apps on your machine.
+# To commit the OFFICIAL dataset on purpose, force-add it:
+#   git add -f data/raw/dnslens_<official run>.csv
+data/raw/*
+!data/raw/.gitkeep
+
+# Temporary files and local notes
+*.tmp
+*.log
+*.zip
+screenshots/

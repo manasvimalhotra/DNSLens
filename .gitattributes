@@ -1,0 +1,10 @@
+# Keep line endings consistent between macOS and Windows
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.toml text eol=lf
+*.pcapng binary
+*.pcap binary
+*.png binary
+*.jpg binary

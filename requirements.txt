@@ -1,0 +1,5 @@
+dnspython[doh]
+streamlit
+pandas
+plotly
+scapy
